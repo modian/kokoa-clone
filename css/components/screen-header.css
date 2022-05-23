@@ -1,9 +1,9 @@
 .screen-header {
+  padding: var(--horizontal-space);
+  margin: 25px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--horizontal-space);
-  margin: 15px 0px;
 }
 
 .screen-header__title {
@@ -39,5 +39,5 @@
 }
 
 .screen-header__icons .fa-cog:hover {
-  animation: rotateCog 3s ease-in-out infinite;
+  animation: rotateCog 3s linear infinite;
 }
